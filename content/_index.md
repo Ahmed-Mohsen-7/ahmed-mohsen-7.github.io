@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title: ''
+title: 'Ahmed M. Ali'
 summary: ''
 date: 2026-01-05
 type: landing

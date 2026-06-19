@@ -2,50 +2,61 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Alex Johnson
-  given: Alex
-  family: Johnson
+  display: Ahmed M. Ali
+  given: Ahmed
+  family: Ali
 postnominals: []
 status:
   icon: "💻"  # Emoji shown on avatar badge: 💻 developer, 🎨 designer, 🚀 startup, 🔬 researcher, 🎓 student
-role: Full-Stack Developer
-email: alex@example.com
+role: Senior Software Engineer
+email: ahmedmohsen022@gmail.com
 bio: |
-  Full-stack developer with 5+ years of experience building scalable web applications.
-  Passionate about modern JavaScript, cloud architecture, and creating delightful user experiences.
+  Senior Software Engineer with several-years experience developing perception and autonomy systems for
+  UAVs operating in GPS-denied environments. Strong background in deep learning (PyTorch), rein-
+  forcement learning, and real-time C++/Python systems deployed on embedded edge platforms. My
+  expertise lies in translating complex research results into robust, production-ready software solu-
+  tions.
 
-affiliations:
-  - name: Tech Corp
-    url: https://techcorp.example.com
+# affiliations:
+#   - name: Tech Corp
+#     url: https://techcorp.example.com
 
-links:
+social:
   - icon: at-symbol
-    url: mailto:alex@example.com
+    url: ahmedmohsen022@gmail.com
     label: E-mail Me
   - icon: brands/github
-    url: https://github.com/alexjohnson
+    url: https://github.com/Ahmed-Mohsen-7
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnson/
-  - icon: brands/x
-    url: https://x.com/alexjohnson
+    url: https://www.linkedin.com/in/AhmeddMohsen
 
 interests:
-  - Web Development
-  - Cloud Architecture
-  - Open Source
-  - Developer Experience
+  - UAV Autonomy & Navigation
+  - Sensor Fusion & State Estimation
+  - Embedded Systems (Jetson, Odroid)
+  - SLAM & Perception
+  - Computer Vision
+  - Reinforcment Learning
 
 education:
-  - degree: B.S. Computer Science
-    institution: State University
-    start: 2015-09-01
-    end: 2019-05-31
-    summary: |
-      Focus on software engineering and distributed systems.
-      Senior project on distributed caching systems.
+  - degree: M.Sc. Robotics & Computer Vision
+    institution: Innopolis University
+    start: 2021-08
+    end: 2023-06
+    Master thesis: Trajectory Planner for Autonomous Ground Vehicles in Unknown Environments.
     button:
       text: View Project
-      url: https://github.com/alexjohnson/senior-project
+      url: https://github.com/Ahmed-Mohsen-7/faster
+      icon: brands/github
+
+  - degree: B.Sc. Mechanical Engineering (Major: Mechatronics)
+    institution: Nile University
+    start: 2016-08
+    end: 2021-06
+    Master thesis: “Design and Control Optimization of Autonomous Mobile Industrial Robots”.
+    button:
+      text: View Project
+      url: https://github.com/Ahmed-Mohsen-7/Design-And-Control-Of-Swarm-Of-Autonomous-Mobile-Industrial-Robots
       icon: brands/github
 
 experience:
@@ -75,9 +86,9 @@ experience:
 skills:
   - name: Development
     items:
-      - label: TypeScript
+      - label: C++
         level: 5
-      - label: React
+      - label: Python
         level: 5
       - label: Node.js
         level: 5
@@ -87,7 +98,7 @@ skills:
     items:
       - label: Docker
         level: 4
-      - label: AWS
+      - label: SkiffOS
         level: 4
       - label: CI/CD
         level: 5
@@ -95,6 +106,10 @@ skills:
 languages:
   - name: English
     level: 5
+  - name: Arabic
+    level: 5
     label: Native
+  - name: Geramn
+    level: 3
 
-awards: []
+# awards: []
