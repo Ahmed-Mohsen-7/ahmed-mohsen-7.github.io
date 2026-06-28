@@ -18,10 +18,10 @@ sections:
         enable: true
         prefix: "I build"
         strings:
-          - "Autonoomy Modules"
+          - "Autonomy Modules"
           - "CV Systems"
           - "AI Models"
-          - "embedded Robotics Software"
+          - "Embedded Robotics Software"
         type_speed: 70
         delete_speed: 40
         pause_time: 2500
@@ -121,7 +121,7 @@ sections:
   - block: resume-experience
     id: experience
     content:
-      title: Experience
+      title: Work Experience
       date_format: Jan 2006
       items:
         - title: Senior Software Engineer

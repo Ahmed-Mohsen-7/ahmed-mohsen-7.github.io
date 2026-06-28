@@ -41,8 +41,8 @@ interests:
 education:
   - degree: M.Sc. Robotics & Computer Vision
     institution: Innopolis University
-    start: 2021-08
-    end: 2023-06
+    start: Aug 2021
+    end: July 2023
     Master thesis: Trajectory Planner for Autonomous Ground Vehicles in Unknown Environments.
     button:
       text: View Project
@@ -51,8 +51,8 @@ education:
 
   - degree: B.Sc. Mechanical Engineering (Major in Mechatronics)
     institution: Nile University
-    start: 2016-08
-    end: 2021-06
+    start: Aug 2016
+    end: June 2021
     Master thesis: “Design and Control Optimization of Autonomous Mobile Industrial Robots”.
     button:
       text: View Project
@@ -60,13 +60,13 @@ education:
       icon: brands/github
 
 experience:
-  - role: Senior Software Engineer
+  - role: Software Engineer
     org: Avemoy
     start: Sep 2024
     end: Jan 2026
     summary: |
-      Developed and deployed perception-driven UAV autonomy modules
-      Implemented and integrated multi-sensor fusion between different sensors
+      Developed and deployed perception-driven UAV autonomy modules.
+      Implemented and integrated multi-sensor fusion between different sensors.
       Re-architected mission planner into a state-machine-based design, improving scalability and maintainability
   - role: Researcher
     org: University of Klagenfurt
@@ -75,7 +75,7 @@ experience:
     summary: |
       Developed a point-cloud-based altitude estimation module.
       Built trajectory evaluation tools to estimate flight accuracy.
-      Led migration from monolith to microservices architecture.
+      Optimized autonomy pipeline by converting critical modules from Python to C++.
 
 skills:
   - name: Development
