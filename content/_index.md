@@ -75,6 +75,44 @@ sections:
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
   
+  # Experience Timeline
+  - block: resume-experience
+    id: experience
+    content:
+      title: Experience
+      date_format: Jan 2006
+      items:
+        - title: Software Engineer
+          company: Avemoy
+          company_url: ''
+          company_logo: ''
+          location: ''
+          date_start: '2024-09-01'
+          date_end: '2026-01-01'
+          description: |2-
+            * Developed and deployed perception-driven UAV autonomy modules.
+            * Implemented and integrated multi-sensor fusion between different sensors.
+            * Re-architected mission planner into a state-machine-based design, improving scalability and maintainability.
+        - title: Researcher
+          company: University of Klagenfurt
+          company_url: ''
+          company_logo: ''
+          location: Klagenfurt, Austria
+          date_start: '2023-07-01'
+          date_end: '2024-07-01'
+          description: |2-
+            * Developed a point-cloud-based altitude estimation module.
+            * Built trajectory evaluation tools to estimate flight accuracy.
+            * Optimized autonomy pipeline by converting critical modules from Python to C++.
+    design:
+      columns: '1'
+      background:
+        color:
+          light: "#ffffff"
+          dark: "#0d0d12"
+      spacing:
+        padding: ["4rem", "0", "4rem", "0"]
+
   # Visual Tech Stack - Icons organized by category
   - block: tech-stack
     id: skills
@@ -117,58 +155,33 @@ sections:
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
   
-  # Experience Timeline
-  - block: resume-experience
-    id: experience
+  
+  # Education
+  - block: resume-education
+    id: education
     content:
-      title: Work Experience
+      title: Education
       date_format: Jan 2006
       items:
-        - title: Senior Software Engineer
-          company: Tech Corp
-          company_url: ''
-          company_logo: ''
-          location: San Francisco, CA
-          date_start: '2023-01-01'
-          date_end: ''
-          description: |2-
-            * Lead development of microservices architecture serving 1M+ users
-            * Improved API response time by 40% through optimization
-            * Mentored team of 5 junior developers
-            * Tech stack: React, Node.js, PostgreSQL, AWS
-        - title: Full-Stack Developer
-          company: Startup Inc
-          company_url: ''
-          company_logo: ''
-          location: Remote
-          date_start: '2021-06-01'
-          date_end: '2022-12-31'
-          description: |2-
-            * Built and deployed 3 production applications from scratch
-            * Implemented CI/CD pipeline reducing deployment time by 60%
-            * Collaborated with design team on UI/UX improvements
-            * Tech stack: Next.js, Express, MongoDB, Docker
-        - title: Junior Developer
-          company: Web Agency
-          company_url: ''
-          company_logo: ''
-          location: New York, NY
-          date_start: '2020-01-01'
-          date_end: '2021-05-31'
-          description: |2-
-            * Developed client websites using modern web technologies
-            * Maintained and updated legacy codebases
-            * Participated in code reviews and agile ceremonies
-            * Tech stack: React, WordPress, PHP, MySQL
+        - title: M.Sc. Robotics & Computer Vision
+          institution: Innopolis University
+          date_start: '2021-08-01'
+          date_end: '2023-07-01'
+          description: ''
+        - title: B.Sc. Mechanical Engineering (Mechatronics)
+          institution: Nile University
+          date_start: '2016-08-01'
+          date_end: '2021-06-01'
+          description: ''
     design:
       columns: '1'
       background:
         color:
-          light: "#ffffff"
-          dark: "#0d0d12"
+          light: "#f5f5f5"
+          dark: "#08080c"
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
-  
+
   # # Recent Blog Posts
   # - block: collection
   #   id: blog
@@ -202,6 +215,7 @@ sections:
         I'm always interested in hearing about new projects and opportunities.
         Whether you're looking to hire, collaborate, or just want to say hi, feel free to reach out!
       email: ahmedmohsen022@gmail.com
+      username: me        # ← add this to pull socials from me.yaml
       autolink: true
     design:
       columns: '1'
@@ -217,8 +231,7 @@ sections:
     content:
       title: "Open to Opportunities"
       text: |-
-        I'm currently looking for **senior engineering** or **tech lead** roles.
-        
+        I'm currently looking for **software engineer* roles.
         Let's connect and discuss how I can help your team.
       button:
         text: 'Download Resume'

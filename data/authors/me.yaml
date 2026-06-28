@@ -11,9 +11,8 @@ status:
 role: Senior Software Engineer
 email: ahmedmohsen022@gmail.com
 bio: |
-  Senior Software Engineer with several-years experience developing perception and autonomy systems for
-  UAVs operating in GPS-denied environments. Strong background in deep learning (PyTorch), rein-
-  forcement learning, and real-time C++/Python systems deployed on embedded edge platforms. My
+  Software Engineer with 3 experience developing perception and autonomy systems for
+  UAVs operating in GPS-denied environments. Strong background in deep learning (PyTorch), reinforcement learning, and real-time C++/Python systems deployed on embedded edge platforms. My
   expertise lies in translating complex research results into robust, production-ready software solu-
   tions.
 
@@ -38,44 +37,44 @@ interests:
   - Computer Vision
   - Reinforcment Learning
 
-education:
-  - degree: M.Sc. Robotics & Computer Vision
-    institution: Innopolis University
-    start: Aug 2021
-    end: July 2023
-    Master thesis: Trajectory Planner for Autonomous Ground Vehicles in Unknown Environments.
-    button:
-      text: View Project
-      url: https://github.com/Ahmed-Mohsen-7/faster
-      icon: brands/github
+# education:
+#   - degree: M.Sc. Robotics & Computer Vision
+#     institution: Innopolis University
+#     start: Aug 2021
+#     end: July 2023
+#     Master thesis: Trajectory Planner for Autonomous Ground Vehicles in Unknown Environments.
+#     button:
+#       text: View Project
+#       url: https://github.com/Ahmed-Mohsen-7/faster
+#       icon: brands/github
 
-  - degree: B.Sc. Mechanical Engineering (Major in Mechatronics)
-    institution: Nile University
-    start: Aug 2016
-    end: June 2021
-    Master thesis: “Design and Control Optimization of Autonomous Mobile Industrial Robots”.
-    button:
-      text: View Project
-      url: https://github.com/Ahmed-Mohsen-7/Design-And-Control-Of-Swarm-Of-Autonomous-Mobile-Industrial-Robots
-      icon: brands/github
+#   - degree: B.Sc. Mechanical Engineering (Major in Mechatronics)
+#     institution: Nile University
+#     start: Aug 2016
+#     end: June 2021
+#     Master thesis: “Design and Control Optimization of Autonomous Mobile Industrial Robots”.
+#     button:
+#       text: View Project
+#       url: https://github.com/Ahmed-Mohsen-7/Design-And-Control-Of-Swarm-Of-Autonomous-Mobile-Industrial-Robots
+#       icon: brands/github
 
-experience:
-  - role: Software Engineer
-    org: Avemoy
-    start: Sep 2024
-    end: Jan 2026
-    summary: |
-      Developed and deployed perception-driven UAV autonomy modules.
-      Implemented and integrated multi-sensor fusion between different sensors.
-      Re-architected mission planner into a state-machine-based design, improving scalability and maintainability
-  - role: Researcher
-    org: University of Klagenfurt
-    start: Jul 2023
-    end: Jul 2024
-    summary: |
-      Developed a point-cloud-based altitude estimation module.
-      Built trajectory evaluation tools to estimate flight accuracy.
-      Optimized autonomy pipeline by converting critical modules from Python to C++.
+# experience:
+#   - role: Software Engineer
+#     org: Avemoy
+#     start: Sep 2024
+#     end: Jan 2026
+#     summary: |
+#       Developed and deployed perception-driven UAV autonomy modules.
+#       Implemented and integrated multi-sensor fusion between different sensors.
+#       Re-architected mission planner into a state-machine-based design, improving scalability and maintainability
+#   - role: Researcher
+#     org: University of Klagenfurt
+#     start: Jul 2023
+#     end: Jul 2024
+#     summary: |
+#       Developed a point-cloud-based altitude estimation module.
+#       Built trajectory evaluation tools to estimate flight accuracy.
+#       Optimized autonomy pipeline by converting critical modules from Python to C++.
 
 skills:
   - name: Development
