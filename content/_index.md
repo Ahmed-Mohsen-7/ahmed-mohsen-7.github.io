@@ -156,54 +156,21 @@ sections:
         padding: ["4rem", "0", "4rem", "0"]
   
   
-  # Education
-  # - block: resume-experience
-  #   id: education
-  #   content:
-  #     title: Education
-  #     date_format: Jan 2006
-  #     items:
-  #       - title: M.Sc. Robotics & Computer Vision
-  #         institution: Innopolis University
-  #         date_start: '2021-08-01'
-  #         date_end: '2023-07-01'
-  #         description: ''
-  #       - title: B.Sc. Mechanical Engineering (Mechatronics)
-  #         institution: Nile University
-  #         date_start: '2016-08-01'
-  #         date_end: '2021-06-01'
-  #         description: ''
-  #   design:
-  #     columns: '1'
-  #     background:
-  #       color:
-  #         light: "#f5f5f5"
-  #         dark: "#08080c"
-  #     spacing:
-  #       padding: ["4rem", "0", "4rem", "0"]
-
-  # # Recent Blog Posts
-  # - block: collection
-  #   id: blog
-  #   content:
-  #     title: Recent Posts
-  #     subtitle: 'Thoughts on web development, tech, and more'
-  #     text: ''
-  #     filters:
-  #       folders:
-  #         - blog
-  #       exclude_featured: false
-  #     count: 3
-  #     order: desc
-  #   design:
-  #     view: card
-  #     columns: 3
-  #     background:
-  #       color:
-  #         light: "#f5f5f5"
-  #         dark: "#08080c"
-  #     spacing:
-  #       padding: ["4rem", "0", "4rem", "0"]
+  - block: resume-experience
+    id: experience
+    content:
+      username: me
+    design:
+      date_format: Jan-2006
+      is_education_first: false
+      columns: '1'
+      background:
+        color:
+          light: "#ffffff"
+          dark: "#0d0d12"
+      spacing:
+        padding: ["4rem", "0", "4rem", "0"]
+        
   
   # Contact Section
   - block: contact-info
