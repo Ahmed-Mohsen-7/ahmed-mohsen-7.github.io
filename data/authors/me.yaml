@@ -2,7 +2,7 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Ahmed M. Ali
+  display: Ahmed M. Alii
   given: Ahmed
   family: Ali
 postnominals: []
