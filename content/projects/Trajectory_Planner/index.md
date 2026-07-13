@@ -28,5 +28,5 @@ Developed a comprehensive autonomous navigation stack for ground vehicles as par
 ROS, C++, Gurobi Optimizer, Gazebo, Rviz, JPS3D
 
 <div style="display: flex; justify-content: flex-end; margin-top: 2rem;">
-  <iframe src="https://drive.google.com/file/d/1QqfabunIrlzDQM1eV_LZS0Yo78BxrjXR/view?usp=drive_link" width="640" height="480" style="max-width: 100%; border: none; border-radius: 8px;"></iframe>
+  <iframe src="https://drive.google.com/file/d/1QqfabunIrlzDQM1eV_LZS0Yo78BxrjXR/preview" width="640" height="480" style="max-width: 100%; border: none; border-radius: 8px;"></iframe>
 </div>
