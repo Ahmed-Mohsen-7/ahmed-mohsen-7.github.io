@@ -30,6 +30,7 @@ Built a custom OpenAI Gym environment inspired by Turtlebot3 to train robot navi
 Python, OpenAI Gym, Stable-Baselines3, OpenCV, Pillow
 
 **Results (validated in simulation):**
+
 This video shows the robot navigatin to a random target location, trained using RL policy.
 <div style="display: flex; justify-content: flex-end; margin-top: 2rem;">
   <iframe src="https://drive.google.com/file/d/1jKqXJ_4NQIm32j_P0myAXHUWCRvsIBO9/preview" width="640" height="480" style="max-width: 100%; border: none; border-radius: 8px;"></iframe>
