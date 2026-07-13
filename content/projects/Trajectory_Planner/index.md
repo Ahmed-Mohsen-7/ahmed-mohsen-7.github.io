@@ -1,7 +1,6 @@
 ---
 title: "Trajectory Planner for Autonomous Ground Vehicles in Unknown Environments"
 summary: "Master's thesis: a Hybrid A*/JPS trajectory planner with a novel free-space-estimation recovery behavior and MPC feedback control, extending the FASTER planning framework for ground robots"
-: ""
 date: 2024-07-13
 tags:
   - Robotics
