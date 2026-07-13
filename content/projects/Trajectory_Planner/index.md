@@ -6,7 +6,7 @@ tags:
   - Robotics
 ---
 
-Developed a comprehensive autonomous navigation stack for ground vehicles as part of my Master's thesis, extending [FASTER](https://github.com/mit-acl/faster) (Tordesillas & How, IEEE T-RO 2021; IROS 2019 Best Paper Award finalist) with a new trajectory planner, a novel recovery behavior, and MPC-based feedback control.
+Developed a comprehensive autonomous navigation stack for ground vehicles as part of my Master's thesis, extending [FASTER](https://github.com/mit-acl/faster) with a new trajectory planner, a novel recovery behavior, and MPC-based feedback control.
 
 **Key Contributions:**
 * **Trajectory Planning**: Replaced FASTER's JPS-only planning approach with Hybrid A* as the primary trajectory planner, supplemented by JPS to improve planning efficiency, reducing optimization failures and total simulation time.
